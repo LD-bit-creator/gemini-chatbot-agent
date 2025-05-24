@@ -21,7 +21,7 @@ async def on_message(message: cl.Message):
 
 @cl.on_chat_start
 async def on_chat_start():
-    await cl.Message("👋 Hi! I'm your Gemini assistant.").send()
+    await cl.Message("Hi! I'm your Gemini assistant.").send()
 
 @cl.on_message
 async def on_message(message: cl.Message):
@@ -47,7 +47,7 @@ async def on_message(message: cl.Message):
         await cl.Message(content=reply).send()
 
     except Exception as e:
-        await cl.Message(f"⚠️ Error: {str(e)}").send()
+        await cl.Message(f"⚠Error: {str(e)}").send()
 
 @cl.on_chat_end
 async def on_chat_end():
