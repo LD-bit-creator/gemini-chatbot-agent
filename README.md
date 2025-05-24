@@ -1,5 +1,5 @@
 # gemini-chatbot-agent
-This is a personal portfolio chatbot project that integrates Google's Gemini API with Chainlit to deliver an intelligent, real-time conversational experience. The goal is to demonstrate the practical implementation of LLM-powered chat interfaces using modern AI tools and frameworks.
+This is a personal chatbot project that integrates Google's Gemini API with Chainlit to deliver an intelligent, real-time conversational experience. The goal is to demonstrate the practical implementation of LLM-powered chat interfaces using modern AI tools and frameworks.
 
 Key Features
 
